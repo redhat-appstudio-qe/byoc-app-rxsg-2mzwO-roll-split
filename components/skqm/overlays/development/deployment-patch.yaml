@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: skqm
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/byoc-cqij-tenant/byoc-app-rxsg/skqm@sha256:37d5d5de1a8261186102084e07182b6f86cb3bd54538a43cfdff2f23cbf15191
+        name: my-java-quarkus
+        resources: {}
+status: {}
